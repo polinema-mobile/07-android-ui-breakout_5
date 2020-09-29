@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Challenge7</string>
+    <string-array name="jurusan">
+        <item>Teknologi Informasi</item>
+        <item>Akutansi</item>
+        <item>Teknik Sipil</item>
+        <item>Administrasi Niaga</item>
+        <item>Teknik Elektro</item>
+        <item>Teknik Kimia</item>
+        <item>Teknik Mesin</item>
+    </string-array>
 </resources>
