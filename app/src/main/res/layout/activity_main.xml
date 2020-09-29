@@ -15,7 +15,7 @@
         android:layout_marginTop="37dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nama"
+        android:hint="Nama"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,7 +30,7 @@
         android:layout_marginRight="28dp"
         android:ems="10"
         android:inputType="number"
-        android:text="Nim"
+        android:hint="Nim"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtNama" />
@@ -45,8 +45,9 @@
         android:layout_marginEnd="31dp"
         android:layout_marginRight="31dp"
         android:ems="10"
+        android:clickable="true"
         android:inputType="date"
-        android:text="Tanggal Lahir"
+        android:hint="Tanggal Lahir"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtNim" />
@@ -62,26 +63,20 @@
         android:layout_marginRight="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtTanggalLahir">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="49dp"
-            android:orientation="horizontal">
+        app:layout_constraintTop_toBottomOf="@+id/edtTanggalLahir"
+        android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/btLaki"
                 android:layout_width="196dp"
                 android:layout_height="wrap_content"
-                android:text="RadioButton"
-                tools:text="Laki-Laki" />
+                android:text="Laki-Laki"/>
 
             <RadioButton
                 android:id="@+id/btPerempuan"
                 android:layout_width="189dp"
                 android:layout_height="wrap_content"
                 android:text="Perempuan" />
-        </LinearLayout>
 
     </RadioGroup>
 
@@ -94,7 +89,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
-        android:entries="Akuntansi, TI, Mesin"
+
         android:spinnerMode="dropdown"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,5 +108,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerJurusan" />
+
+    <Button
+        android:id="@+id/btnSimpanP"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Simpan Data Parcelable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSimpan" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
