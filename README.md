@@ -10,3 +10,10 @@
 ### Hasil
 ![Hasil](assets/2.png)
 
+### Hasil Parce
+![Hasil Parce](assets/3.png)
+
+
+### Tanggal
+![Tanggal](assets/4.png)
+
